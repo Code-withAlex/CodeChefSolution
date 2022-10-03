@@ -30,10 +30,11 @@ void solver(){
     }
     
 }
+
 int main(){
-    int sac=1;
-    cin>>sac;
-    for(int i=0;i<sac;i++){
+    int s=1;
+    cin>>s;
+    for(int i=0;i<s;i++){
         solver();
     }
     return 0;
