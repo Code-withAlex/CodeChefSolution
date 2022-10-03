@@ -1,12 +1,12 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--) {
+    int n;
+    cin >> n;
+    while (n--) {
         int arr[4];
         for (int i = 0; i < 4; i++)
         {
@@ -20,7 +20,7 @@ int main()
             }
         }
         cout<<a<<endl;
-
+        // this will print answer
         
         
     }
