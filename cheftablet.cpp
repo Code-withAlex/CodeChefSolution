@@ -1,7 +1,7 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-void atom(){
+void solver(){
     int a,b;
     cin>>a>>b;
     int q = a;
@@ -34,7 +34,7 @@ int main(){
     int sac=1;
     cin>>sac;
     for(int i=0;i<sac;i++){
-        atom();
+        solver();
     }
     return 0;
 }
